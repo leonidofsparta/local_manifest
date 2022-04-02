@@ -52,11 +52,7 @@
             remote="github"
             revision="twelve"/>
 
-<!-- Fixes -->
-
-<!--device settings-->
-<remove-project name="LineageOS/android_packages_resources_devicesettings" />
-           <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1" />
+<!-- Fixes --!>
           <!--display bringup-->
         <remove-project name="LineageOS/android_hardware_qcom_display" />
             <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="mi2" revision="twelve"/>
